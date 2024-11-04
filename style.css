@@ -1,0 +1,63 @@
+footer {
+    border: 2px solid red;
+    height: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+}
+
+.block1 {
+    background-color: black;
+    position: absolute;
+    bottom: 40px;
+    left: 100px;
+    width: 90px;
+    height: 400px;
+    transform: skewY(-15deg);
+}
+
+.block1 .in-block1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    border: 2px solid red;
+    height: 200px;
+}
+
+.block1 .in-block1 div{
+    background-color: white;
+    border-radius: 8px;
+    width: 33px;
+    height: 33px;
+}
+
+.block1 .block1-door {
+    /* border: 2px solid rgb(76, 0, 255); */
+    position: absolute;
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.block1 .block1-door div{
+    border: 2px solid yellow;
+    background-color: white;
+    width: 30px;
+    height: 90px;
+
+}
+
+.block1-left {
+        /* background-color: rgb(230, 16, 16); */
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 90px;
+        height: 400px;
+}
